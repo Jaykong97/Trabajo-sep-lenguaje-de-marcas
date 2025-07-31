@@ -1,4 +1,57 @@
 @font-face {
-    font-family: Fuente Principal;
-    src: url(fonts/Impact.ttf) format(ttf);
+    font-family: 'SpecialGothic';
+    src: url(fonts/SpecialGothic-Regular.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlumniSansSC';
+    src: url(fonts/AlumniSansSC-Thin.woff2) fotmat(woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'SpecialGothic', sans-serif;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.site-header{
+    padding: 1rem 0;
+}
+
+.icon-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.icon-nav{
+    width: 32px;
+    height: 32px;
+    filter: invert(1);
+}
+
+.intro h1{
+    font-family: 'AlumniSansSC' sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+    opacity: 0.8;
 }
